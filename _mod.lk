@@ -1,0 +1,7 @@
+// The interface of this module. Manual: https://liko-lang.org
+$mod: {
+    author: "Liko"
+    version: "0.1.0"
+    dependencies: []                  // liko add NAME  (or a URL, NAME@VERSION)
+    // settings: { port: int or 8080 }  // given by the importer: import "…" with { port: 80 }
+}
