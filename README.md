@@ -30,7 +30,7 @@ liko install
 The module can now be used from any directory within the current module.
 
 ```liko
-#ArgoCD: import "argo-cd/application/v3.5.4"
+#ArgoCD: import "argo-cd/application"
 
 $: #ArgoCD.Application & {
     metadata: {
