@@ -12,5 +12,5 @@ VERSION=$1
 NAMES=(appproject application applicationset)
 
 for name in "${NAMES[@]}"; do
-    liko import "https://raw.githubusercontent.com/argoproj/argo-cd/refs/tags/${VERSION}/manifests/crds/${name}-crd.yaml" --name "argo-cd/${name}" --version "${VERSION}"
+    liko import "https://raw.githubusercontent.com/argoproj/argo-cd/refs/tags/${VERSION}/manifests/crds/${name}-crd.yaml" --name "${name}" --version "${VERSION}"
 done
